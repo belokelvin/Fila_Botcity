@@ -62,7 +62,7 @@ O método `next_item` é responsável por retornar o próximo item da fila a ser
 
 ##### Exemplo
 ```python
-`item = fila.next_item()`
+item = fila.next_item()
 ```
 #### `update_item(self, item, status)`
 
@@ -87,7 +87,7 @@ O método `next_item` é responsável por retornar o próximo item da fila a ser
 
 ##### Exemplo
 ```python
-`item = fila.next_item()`
+item = fila.next_item()
 ```
 #### `set_Asset(self, asset, valor)`
 
