@@ -179,3 +179,24 @@ fila.set_Asset("ativo1", 10)
 valor = fila.get_Asset("ativo1")
 print(valor)
 ```
+# MongoDB
+
+No Atlas Mongo DB as coleções geradas pelo codigo apresentado se comportam em um esquema não relacional de banco de dados apresentado como um esquema abaixo:
+
+    Status: <status>,
+    Inciado: <hora de inicio>,
+    Atualizado: <hora de atualização>,
+    Maquina: <Maquina em execução>,
+    Prioridade: <Prioridade de execução>,
+    Conteudo: { <Linha de dados> },
+    Historico: {
+		Ação: <Tipo de ação>,
+		Autor: <Maquina em execução>,
+	    Status: <Nome da Alteração>,
+	    Revisor: <Maquina em execução>,
+	    Horas: <Tempo agora>
+	}
+	
+Os dados são atualizados são atualizados dentro do codigo, e os campos de infromações alimentam um B.I. criado dentro da plataforma do atlas, uma ferramenta chamada Charts. Abaixo tem um exemplo de um possivel conjunto de infromações disponiveis.
+![Imagem descritiva dos graficos do Atlas](https://i.imgur.com/1GMwFxj.png)
+
