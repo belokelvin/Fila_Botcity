@@ -1,7 +1,7 @@
   
 A classe FilaMongoDB é uma ferramenta desenvolvida para ser utilizada em conjunto com a plataforma BotCity, que é uma plataforma de automação robótica de processos (RPA). A plataforma BotCity permite a criação de robôs que automatizam tarefas repetitivas em diversos sistemas, como navegadores web, aplicativos desktop e bancos de dados.
 
-A classe FilaMongoDB é uma ferramenta que permite gerenciar uma fila de processamento de dados em um banco de dados MongoDB. Com ela, é possível adicionar itens à fila, atualizar o status dos itens, obter o próximo item a ser processado e gerenciar uma coleção de ativos. Essa ferramenta é muito útil para organizar e gerenciar o processamento de tarefas em um ambiente de automação robótica de processos.
+FilaMongoDB é uma ferramenta que permite gerenciar uma fila de processamento de dados em um banco de dados MongoDB. Com ela, é possível adicionar itens à fila, atualizar o status dos itens, obter o próximo item a ser processado e gerenciar uma coleção de ativos. Essa ferramenta é muito útil para organizar e gerenciar o processamento de tarefas em um ambiente de automação robótica de processos.
 
 
 ## Pacotes importados
